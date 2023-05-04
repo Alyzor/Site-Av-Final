@@ -1,0 +1,93 @@
+.grid{
+    
+    margin-top:6rem;
+    padding:1rem;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:1rem;
+    align-content:center;
+    text-align: center; 
+}
+
+.grid-item{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background:#f3f3f3;
+    height:40vh;
+    width:100%;
+    overflow:hidden;
+    box-shadow: 2px 3px 7px 0px rgba(48,48,48,1);
+    border-radius:5px;
+}
+
+.grid-item:hover > .info-city{
+    transition:250ms;
+    backdrop-filter:blur(3px);
+    visibility: visible;
+}
+
+.info-city{
+    visibility: hidden;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color:#0e0e0e7e;
+    color: #f3f3f3 !important;
+    gap:1rem;
+    width:100%;
+    height:100%;
+}
+
+.info-city a{
+    background-color: lightgray;
+    color: #333 !important;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0.5rem;
+    border-radius:5px;
+    width:fit-content;
+    box-shadow: 2px 3px 7px 0px rgba(48,48,48,1);
+    text-decoration: none;
+}
+
+/* Backgrounds */
+
+.leiria{
+    content:'';
+    height:100%;
+    width:100%;
+    background-image:url("https://images.pexels.com/photos/4443001/pexels-photo-4443001.jpeg");
+    background-size:cover;
+    background-position:center;
+}
+
+.lisboa{
+    background-image:url("https://images.pexels.com/photos/1534560/pexels-photo-1534560.jpeg");
+    background-size:cover;
+    background-position:center;
+}
+
+.porto{
+    background-image:url("https://images.pexels.com/photos/2549572/pexels-photo-2549572.jpeg");
+    background-size:cover;
+    background-position:center;
+}
+
+.sines{
+    background-image:url("https://www.vagamundos.pt/wp-content/uploads/2022/06/1-6.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.lagoa{
+    background-image:url("https://images.pexels.com/photos/12633953/pexels-photo-12633953.jpeg");
+    background-size:cover;
+    background-position:center;
+}
+
+.coimbra{
+    background-image:url("https://images.pexels.com/photos/3885725/pexels-photo-3885725.jpeg");
+    background-size:cover;
+    background-position:center;
+}

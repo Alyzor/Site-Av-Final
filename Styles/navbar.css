@@ -1,0 +1,80 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding:0;
+    margin:0;
+    border:0;
+    font-weight: bold;
+}
+
+a{
+    appearance: none;
+    text-decoration: none;
+    color: #333;
+}
+
+.header img{
+    width:2rem;
+    height:2rem;
+    justify-self:flex-end;
+}
+.header{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999;
+}
+
+.btnMenu{
+    display:grid;
+    text-align: center;
+    align-items:center;
+}
+
+.burger{
+    background-color:#f3f3f3;
+    justify-content:space-evenly;
+    padding:2rem;
+    display:flex;
+    align-items:center;
+    width:100%;
+    box-shadow: 2px 3px 7px 0px rgba(48,48,48,1);
+}
+
+.burger-top{
+    z-index: -5;
+    position:absolute;
+    transform:translateY(-200%);
+    transition:all 800ms ease-in; 
+}
+
+.burger-down{
+    transform:translateY(0%);
+    z-index: -5;
+    transition:all 800ms ease-in;
+    position:static;
+    position:relative;
+}
+
+#menuToggle:checked .burger-top{
+    position:static;
+    top:0;
+}
+
+#menuToggle{
+    appearance: none;
+    background-image:url("https://cdn-icons-png.flaticon.com/256/56/56763.png");
+    width:2rem;
+    height:2rem;
+    background-size:contain;
+}
+
+.navbar{
+
+    display:flex;
+    justify-content:space-between;
+    padding:1rem;
+    align-content:center;
+    font-size:1.4rem;
+    background:lightgray;
+    box-shadow: 2px 3px 7px 0px rgba(48,48,48,1);
+}

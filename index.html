@@ -4,51 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portugal</title>
+    <title>Portugal - Cidades</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Styles/navbar.css">
+    <link rel="stylesheet" href="Styles/stylecity.css" />
+    <script
+      src="https://kit.fontawesome.com/87e454f50e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <p class="title">Bem Vind@ a Portugal!</p>
-        <p class="spacer"></p>
-        <p class="stext">
-          Explore algumas das suas maravilhas neste nosso website!
-        </p>
+        <div class="navbar">
+          <p class="title">Bem Vind@ a Portugal!</p>
+          <p class="stext">
+            Cidades Portuguesas
+          </p>
+          <input id="menuToggle" type="checkbox" />
+          <!-- <img src="https://cdn-icons-png.flaticon.com/256/56/56763.png" alt=""> -->
+        </div>
+        <div class="burger burger-top">
+          <div class="btnMenu">
+            <a href="index.html">
+              <i class="fa-solid fa-city fa-4x"></i>
+              <p>Cidades</p>
+            </a>
+          </div>
+          <div class="btnMenu">
+            <a href="river.html">
+              <i class="fa-solid fa-water fa-4x"></i>
+              <p>Rios</p>
+            </a>
+          </div>
+          <div class="btnMenu">
+            <a href="beach.html">
+              <i class="fa-solid fa-umbrella-beach fa-4x"></i>
+              <p>Praias</p>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="grid">
+      <div id="gCont" class="grid">
         <div class="grid-item leiria">
-                <img src="https://images.pexels.com/photos/4443001/pexels-photo-4443001.jpeg" alt="Leiria">
+          <div class="info-city">
             <p>Leiria</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, numquam!</p>
+            <p>
+              Uma cidade bastante conhecida, com um belissimo castelo, um vasto
+              rio, e, para os mais religiosos, o Santuário de Nossa Senhora da
+              Encarnação.
+            </p>
+            <a href="https://www.cm-leiria.pt">Visite o seu Website</a>
+          </div>
         </div>
         <div class="grid-item lisboa">
-                <img src="https://images.pexels.com/photos/1534560/pexels-photo-1534560.jpeg" alt="Lisboa">
+          <div class="info-city">
             <p>Lisboa</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, numquam!</p>
+            <p>
+              A capital do país. Uma cidade com muita história, e muitos sítios
+              para visitar.
+            </p>
+            <a href="https://www.lisboa.pt">Visite o seu Website</a>
+          </div>
         </div>
         <div class="grid-item porto">
-                <img src="https://images.pexels.com/photos/7877167/pexels-photo-7877167.jpeg" alt="Porto">
+          <div class="info-city">
             <p>Porto</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, numquam!</p>
+            <p>
+              A segunda maior cidade de Portugal, conhecida pelo seu Vinho,
+              casas lindas, e Universidades.
+            </p>
+            <a href="https://www.cm-porto.pt">Visite o seu Website</a>
+          </div>
         </div>
         <div class="grid-item sines">
-                <img src="https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/Sines%20castle%20and%20Vasco%20da%20Gama%20statue_Credit%20Turismo%20Alentejo_660x371jpg.jpg?itok=GhAUinkC" alt="">
+          <div class="info-city">
             <p>Sines</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, numquam!</p>
+            <p>
+              Casa do grande explorador Português Vasco da Gama. Uma cidade
+              linda, com boas praias, e excelentes atrações turisticas.
+            </p>
+            <a href="https://www.sines.pt">Visite o seu Website</a>
+          </div>
         </div>
-        <div class="grid-item algarve">
-                <img src="https://images.pexels.com/photos/12633953/pexels-photo-12633953.jpeg" alt="">
-            <p>Algarve</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, numquam!</p>
+        <div class="grid-item lagoa">
+          <div class="info-city">
+            <p>Lagoa</p>
+            <p>
+              Uma pequena cidade com vistas lindas, conhecida pela sua
+              vinicultura e agricultura, e também pelas suas praias.
+            </p>
+            <a href="https://www.cm-lagoa.pt">Visite o seu Website</a>
+          </div>
+        </div>
+        <div class="grid-item coimbra">
+          <div class="info-city">
+            <p>Coimbra</p>
+            <p>
+              A cidade Portuguesa com a melhor Universidade do país, construida
+              num antigo palácio. Foi também a antiga capital do país.
+            </p>
+            <a href="https://www.cm-coimbra.pt">Visite o seu Website</a>
+          </div>
         </div>
       </div>
     </div>
+    <script type="text/JavaScript" src="script.js"></script>
   </body>
 </html>
