@@ -37,11 +37,11 @@
     gap:1rem;
     width:100%;
     height:100%;
+    padding:2rem;
 }
 
 .info-city a{
-    background-color: lightgray;
-    color: #333 !important;
+    background-color: #00563F;
     margin-left:auto;
     margin-right:auto;
     padding:0.5rem;

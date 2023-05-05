@@ -1,0 +1,49 @@
+.grid{
+    margin:6rem 2rem 2rem 2rem;
+    gap:2rem;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.infoRiver{
+    background-color:#35b5359d;
+    text-align: center;
+    align-self:end;
+    text-justify: center;
+    padding:1rem;
+    height:fit-content;
+    border-end-end-radius:5px;
+    border-end-start-radius:5px;
+}
+
+.grid-item{
+    width:auto;
+    height:85vh;
+    display:flex;
+    border-radius:5px;
+    box-shadow: 2px 3px 7px 0px rgba(48,48,48,1);
+}
+
+.tejo{
+    background-image:url("https://www.portodelisboa.pt/documents/20121/297337/Tejo+Live.jpg/fe304d3f-85ce-0e0c-6915-29bb23be2578?t=1619797634954");
+    background-size:cover;
+    background-position: center;
+}
+
+.douro{
+    background-image:url("https://cruzeirosnodouro.pt/wp-content/uploads/2019/08/Vila_Nova_de_Foz_Coa_rio_Douro_14282784962.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.guadiana{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/4/41/Guadiana_river.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.mondego{
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/3/32/Mondegobasofias.jpg");
+    background-size:cover;
+    background-position:center;
+}

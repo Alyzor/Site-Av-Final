@@ -6,10 +6,14 @@
     font-weight: bold;
 }
 
+body{
+    background-color:#013220;
+}
+
 a{
     appearance: none;
     text-decoration: none;
-    color: #333;
+    color: #f3f3f3;
 }
 
 .header img{
@@ -31,13 +35,13 @@ a{
 }
 
 .burger{
-    background-color:#f3f3f3;
+    background-color:#00563F;
     justify-content:space-evenly;
     padding:2rem;
     display:flex;
     align-items:center;
     width:100%;
-    box-shadow: 2px 3px 7px 0px rgba(48,48,48,1);
+    box-shadow: 2px 3px 7px 0px rgb(150, 150, 150);
 }
 
 .burger-top{
@@ -75,6 +79,6 @@ a{
     padding:1rem;
     align-content:center;
     font-size:1.4rem;
-    background:lightgray;
+    background:#12E772;
     box-shadow: 2px 3px 7px 0px rgba(48,48,48,1);
 }
